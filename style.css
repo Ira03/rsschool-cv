@@ -446,4 +446,59 @@ ul li {
 .footer__icon_youtube {
   background: url(images/youtube.svg) no-repeat center/contain;
 }
+
+@media (max-width: 700px) {
+  .info section {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .header__photo {
+    width: 150px;
+  }
+  .info::after {
+    display: none;
+  }
+  .portfolio__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .portfolio__text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__name {
+    font-size: 1.8rem;
+  }
+  .contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0 10px 20px 10px;
+    font-size: 1.4rem;
+  }
+  .main {
+    padding-top: 5px;
+  }
+  .portfolio__item {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+  .footer__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .portfolio__description {
+    font-size: 1.6rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
