@@ -232,4 +232,218 @@ ul li {
   height: 200px;
   border: 1px solid black;
 }
+
+.portfolio {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.portfolio::before {
+  content: '';
+  display: block;
+  width: 100%;
+  border-top: 2px solid #ecebe9;
+}
+
+.portfolio__title {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.portfolio__text {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.portfolio__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portfolio__item {
+  border-radius: 15%;
+  overflow: hidden;
+  list-style: none;
+  margin-bottom: 20px;
+  border: 1px solid  #ecebe9;
+}
+
+.portfolio__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.portfolio__block {
+  position: relative;
+  background: #cfd6dd;
+}
+
+.portfolio__preview {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  max-width: 200px;
+}
+
+.portfolio__preview:hover {
+  z-index: 1;
+}
+
+.portfolio__preview:hover img {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  opacity: 0;
+}
+
+.portfolio__preview img {
+  width: 100%;
+  -webkit-transition: 1.5s ease;
+  transition: 1.5s ease;
+  cursor: pointer;
+  height: auto;
+  position: relative;
+  z-index: 3;
+}
+
+.portfolio__description {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 10%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: italic;
+  text-align: center;
+  color: #1c2b2d;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+}
+
+.portfolio__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 5px 8px;
+  border: 2px solid #1f6f8b;
+  color: #1f6f8b;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  z-index: 2;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+  overflow: hidden;
+}
+
+.portfolio__button::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+  height: 0;
+  background: #1f6f8b;
+  z-index: -1;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+  border-radius: 0 0 50% 50%;
+}
+
+.portfolio__button:hover {
+  color: #fff;
+}
+
+.portfolio__button:hover::before {
+  height: 180%;
+}
+
+.footer {
+  padding: 20px 0;
+  -webkit-box-shadow: inset 0px 140px 0px 0px #cfd6dd;
+          box-shadow: inset 0px 140px 0px 0px #cfd6dd;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer__item {
+  list-style: none;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer__item:hover {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.footer__item:hover:last-child {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.footer__link {
+  display: block;
+}
+
+.footer__icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.footer__icon_github {
+  background: url(images/github.svg) no-repeat center/contain;
+}
+
+.footer__icon_rsschool {
+  background: url(images/rs_school_js.svg) no-repeat center/contain;
+  width: 80px;
+}
+
+.footer__icon_youtube {
+  background: url(images/youtube.svg) no-repeat center/contain;
+}
 /*# sourceMappingURL=style.css.map */
