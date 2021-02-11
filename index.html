@@ -1,12 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
 <body>
-    
+  <h1>CV Front-end</h1>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header__img">
+        <img class="header__photo" src="images/photo_cv.jpg" alt="Photo for CV">
+      </div>
+      <span class="header__name">Irina Yakubenia</span>
+      <span class="header__vacancy">Junior Front-end Developer</span>
+      <ul class="header__contacts contacts">
+        <li class="contacts__item">
+          <a class="contacts__tel"  href="tel:+375291355717">
+            <span class="material-icons">phone_iphone</span>
+            <span>+375(29)135-57-17</span>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__email" href="mailto:i.yakubenia@gmail.com">
+            <span class="material-icons">email</span>
+            <span>i.yakubenia@gmail.com</span>
+          </a>
+        </li>
+      </ul>
+   </div>
+  </header>
+  <main class="main">
+    <div class="wrapper">
+      <div class="info">
+        <section class="info__summary">
+          <h2>Summary</h2>
+          <p>I am considering a career change and my goal is to improve theoretical knowledge, get practical experience in building beautiful web applications and become a Front-end Developer. Have excellent ability lo learn, pay careful attention to details, have good analytical and multitasking skills, strong verbal and written communication in English.</p>
+        </section>
+        <section class="info__skills">
+          <h2>Technical Skills</h2>
+          <ul>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Sass</li>
+            <li>Git</li>
+            <li>Photoshop, Figma</li>
+            <li>Webpack</li>
+            <li>Code Editor (Visual Studio Code)</li>
+          </ul>
+        </section>
+        <section class="info__education">
+          <h2>Education</h2>
+          <h3>Self-education:</h3>
+          <ul>
+            <li>HTMLAcademy: HTML & CSS basics</li>
+            <li>Codecademy: Learn CSS, Learn HTML</li>
+            <li>Udemy JavaScript: Full Course</li>
+            <li>learn.javascript.ru</li>
+            <li>ITGid: JavaScript v.2.0</li>
+          </ul>
+          <br>
+          <p>Belorussian State Economic University, The Faculty of Marketing and Logistics</p>                   
+        </section>
+        <section class="info__languages">
+          <h2>English Level</h2>
+          <p>Upper Intermediate<br><br>I use English at my job, communicating with our company`s foreign partners, watch videos in English, read books and articles trying to improve my language skills.</p>
+        </section>      
+      </div>
+      <section class="portfolio">
+        <h2 class="portfolio__title">Experience</h2>
+        <p class="portfolio__text">Have an experience in building simple web applications:</p>
+        <br>
+        <ul class="portfolio__list">
+          <li class="portfolio__item">
+            <div class="portfolio__block">
+              <h2 class="portfolio__description">Momentum&nbsp;Clone</h2>
+              <div class="portfolio__preview">
+                <img src="images/momentum.jpg" alt="Image of momentum application">
+                <a class="portfolio__button" href="https://rolling-scopes-school.github.io/ira03-JS2020Q3/momentum/" target="blanc">View more</a>
+              </div>
+            </div>
+          </li>
+          <li class="portfolio__item">
+            <div class="portfolio__block">
+              <h2 class="portfolio__description">Shelter&nbsp;Website</h2>
+              <div class="portfolio__preview">
+                <img src="images/shelter.jpg" alt="Image of main page of Shelter website">
+                <a class="portfolio__button" href="https://rolling-scopes-school.github.io/ira03-JS2020Q3/shelter/pages/main/main.html" target="blanc">View more</a>
+              </div>
+            </div>
+          </li>
+          <li class="portfolio__item">
+            <div class="portfolio__block">
+              <h2 class="portfolio__description">Calculator</h2>
+              <div class="portfolio__preview">
+                <img src="images/calculator.jpg" alt="Image of online calculator">
+                <a class="portfolio__button" href="https://rolling-scopes-school.github.io/ira03-JS2020Q3/calculator/" target="blanc">View more</a>
+              </div>
+            </div>
+          </li>
+          <li class="portfolio__item">
+            <div class="portfolio__block">
+              <h2 class="portfolio__description">Virtual&nbsp;Keyboard</h2>
+              <div class="portfolio__preview">
+                <img src="images/keyboard.jpg" alt="Image of virtual keyboard">
+                <a class="portfolio__button" href="https://rolling-scopes-school.github.io/ira03-JS2020Q3/virtual-keyboard/" target="blanc">View more</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div> 
+  </main>  
+  <footer class="footer">
+    <div class="wrapper">
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="https://github.com/Ira03" target="blanc">
+              <span class="footer__icon footer__icon_github"></span>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://rs.school/js/" target="blanc">
+              <span class="footer__icon footer__icon_rsschool"></span>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://www.youtube.com/" target="blanc">
+              <span class="footer__icon footer__icon_youtube"></span>
+            </a>
+          </li>
+          <li class="footer__item">
+            <span class="footer__date"><b>2021</b></span></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>
