@@ -33,10 +33,9 @@ let factorial = n => {
 Have an experience in building simple web applications. 
 To watch them please feel free to visit my Github account:
 
-- [Virtual Keyboard](https://github.com/Ira03)
-- [Gem puzzle](https://github.com/Ira03)
-- [Weather Forecast](https://github.com/Ira03)
-- [Singolo](https://github.com/Ira03)
+- [Momentum](https://rolling-scopes-school.github.io/ira03-JS2020Q3/momentum/)
+- [Virtual Keyboard](https://rolling-scopes-school.github.io/ira03-JS2020Q3/virtual-keyboard/)
+
 ### Education ###
 Belorussian State Economic University, The Faculty of Marketing and Logistics
 
