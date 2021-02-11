@@ -489,6 +489,9 @@ ul li {
     -ms-flex-preferred-size: 40%;
         flex-basis: 40%;
   }
+  .portfolio__button {
+    font-size: 1.4rem;
+  }
   .footer__list {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
