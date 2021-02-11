@@ -148,4 +148,43 @@ h2 {
 h3 {
   color: #A4A3A2;
 }
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 20px;
+  font-size: 1.6rem;
+  color: #A4A3A2;
+}
+
+.contacts__item {
+  list-style: none;
+}
+
+.contacts__tel,
+.contacts__email {
+  color: #3a3837;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.material-icons {
+  margin-right: 5px;
+}
+
+.contacts__tel {
+  margin-right: 10px;
+}
 /*# sourceMappingURL=style.css.map */
