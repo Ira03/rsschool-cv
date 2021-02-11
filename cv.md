@@ -15,3 +15,25 @@ I am considering a career change and my goal is to improve theoretical knowledge
 - Photoshop, Figma
 - Webpack
 - Code Editor (Visual Studio Code)
+### Code examples ###
+
+*This code creates the function that receives n and returns n!.*
+```javascript
+let factorial = n => {
+    if (n == 0) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+};
+```
+
+### Experience ###
+
+Have an experience in building simple web applications. 
+To watch them please feel free to visit my Github account:
+
+- [Virtual Keyboard](https://github.com/Ira03)
+- [Gem puzzle](https://github.com/Ira03)
+- [Weather Forecast](https://github.com/Ira03)
+- [Singolo](https://github.com/Ira03)
