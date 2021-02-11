@@ -37,3 +37,11 @@ To watch them please feel free to visit my Github account:
 - [Gem puzzle](https://github.com/Ira03)
 - [Weather Forecast](https://github.com/Ira03)
 - [Singolo](https://github.com/Ira03)
+### Education ###
+Belorussian State Economic University, The Faculty of Marketing and Logistics
+
+### English Level ###
+
+Upper Intermediate  
+I use English at my job, communicating with our company`s foreign partners, watch videos in English, read books and articles trying to improve my language skills.
+
